@@ -10,9 +10,9 @@
 请自行搜索安装go，版本不限；建议：go version go1.10.3 linux/amd64  
 将go运行程序移动到/usr/bin/目录下  
 执行go version验证go命令是否可用。 
-2. 设置go环境
+2. 设置go环境  
 echo 'GOPATH=/data/go_pro/' > /etc/profile && source /etc/profile
-3. 安装go依赖包 
+3. 安装go依赖包  
 go get github.com/astaxie/beego/config github.com/astaxie/beego/logs github.com/lib/pq 
 
 
