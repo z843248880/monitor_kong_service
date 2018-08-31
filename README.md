@@ -17,10 +17,10 @@ go get github.com/astaxie/beego/config github.com/astaxie/beego/logs github.com/
 
 
 # 运行
-cd $GOPATH && \ 
-git clone https://github.com/z843248880/monitor_kong_service.git && \ 
-cd monitor_kong_service && \ 
-go build . && \ 
+cd $GOPATH && \  
+git clone https://github.com/z843248880/monitor_kong_service.git && \  
+cd monitor_kong_service && \  
+go build . && \  
 ./monitor_kong_service
 
 
