@@ -90,7 +90,7 @@ func LoadConf(confType, filename string) (err error) {
 
 	AppConfig.KongAddr = conf.String("kong::server_addr")
 	if len(AppConfig.KongAddr) == 0 {
-		AppConfig.KongAddr = "10.40.54.76:8001"
+		err = fmt.Errorf("invalid kong server")
 	}
 
 	AppConfig.CheckMethod = conf.String("kong::health_check_method")
