@@ -21,9 +21,9 @@ func InitDb(host, user, password, dbname string, port int) {
 	}
 }
 
-func ReturnDb() *sql.DB {
-	return Db
-}
+//func ReturnDb() *sql.DB {
+//	return Db
+//}
 
 func init() {
 	filename := "./conf/ch.conf"
