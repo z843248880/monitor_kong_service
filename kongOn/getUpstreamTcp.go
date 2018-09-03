@@ -66,6 +66,7 @@ func GetAllUpstreamDataTcp(url string) []string {
 
 		upstreamsDataList = append(upstreamsDataList, upstreamsData)
 	}
+	rows.Close()
 	var upstreamList []string
 	for _, v := range upstreamsDataList {
 		upstreamList = append(upstreamList, v.name)
